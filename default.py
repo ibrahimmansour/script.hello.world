@@ -9,7 +9,7 @@ import re
 import httplib
 import time
 
-__settings__ = xbmcaddon.Addon(id='plugin.video.panet')
+__settings__ = xbmcaddon.Addon(id='plugin.video.panet2')
 __icon__ = __settings__.getAddonInfo('icon')
 __fanart__ = __settings__.getAddonInfo('fanart')
 __language__ = __settings__.getLocalizedString

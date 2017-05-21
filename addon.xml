@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.hello.world" name="Hello World" version="1.0.1" provider-name="zag">
+<addon id="plugin.video.panet2" name="Panet2" version="1.0.1" provider-name="zag">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
-	<extension point="xbmc.python.script" library="addon.py">
+	<extension point="xbmc.python.script" library="default.py">
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -25,24 +25,3 @@
 		</assets>
 		<news>Updated the addon to use new addon.xml metadata</news>
 	</extension>
-</addon>
-<addon
-  id="plugin.video.panet"
-  version="2.1.0"
-  name="Panet"
-  provider-name="Bisha">
-  <requires>
-    <import addon="xbmc.python"
-            version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Panet vod Arabic plugin</summary>
-    <description>Panet Arabic plugin. This plugin is completely FREE”</description>
-   
-    <platform>all</platform>
-  </extension>
-</addon>
